@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+body{
+  min-height: 100vh;
+  font-weight: 900;
+  /* mete une color de background ici */
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+hr{
+  border:none;
+  height: 1px;
+  background-color: #a9a9a9;
+}
+
+.app-container{
+  display: flex;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
